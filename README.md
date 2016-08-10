@@ -1,7 +1,16 @@
 # Image_file_publisher
 ## OVERVIEW
-This project is a ros package can provide two images as stereo camera topic.
+This project is a ros package that can provide two images as stereo camera topic.
 
+Can fully working with stereo-image-proc and image-view.
+
+It pubilsh four topic:
+
+    /stereo/left/image_raw
+    /stereo/left/camera_info
+    /stereo/right/image_raw
+    /stereo/right/camera_info
+    
 ## INSTALLATION
 Download catkin tools: 
 
@@ -20,7 +29,7 @@ Leave sorce folder and build:
 
     $ cd ..
     $ catkin init
-    $catkin build
+    $ catkin build
 
 Finally source the environment variable of bash:
 
